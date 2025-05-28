@@ -30,6 +30,18 @@
   display: grid;
   gap: 1rem;
 }
+.flex
+{
+  display: flex;
+}
+.gap-1
+{
+  gap: 1rem;
+}
+.grid
+{
+  display: grid;
+}
 @media (width >= 80em) /* A font-size do MediaQueries é sempre o root - 80em = 1280px */
 {
   .container
