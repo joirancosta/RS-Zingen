@@ -82,6 +82,11 @@ ul[role="list"]
 {
     list-style: none;
 }
+img
+{
+    max-width: 100%;
+    display: inline-block;
+}
 @media (width >= 80em) /* A font-size do MediaQueries é sempre o root - 80em = 1280px */
 {
     :root
